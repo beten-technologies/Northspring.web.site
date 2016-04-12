@@ -1,0 +1,55 @@
+﻿@{
+    var currentPageName = ViewBag.Title;
+}
+<div id="navbar" class="navbar-collapse collapse">
+    <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+        @if (currentPageName == "Home")
+        {
+            <li class="active"><a href="~/Home/Index">Home</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Index">Home</a></li>
+        }
+        @if (currentPageName == "Features")
+        {
+            <li class="active"><a href="~/Home/Pages/Features">Features</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Pages/Features">Features</a></li>
+        }
+        @if (currentPageName == "About")
+        {
+            <li class="active"><a href="~/Home/Pages/About">About Us</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Pages/About">About Us</a></li>
+        }
+        @if (currentPageName == "Services")
+        {
+            <li class="active"><a href="~/Home/Pages/Services">Service</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Pages/Services">Service</a></li>
+        }
+        @if (currentPageName == "Gallery")
+        {
+            <li class="active"><a href="~/Home/Pages/Gallery">Gallery</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Pages/Gallery">Gallery</a></li>
+        }
+        @if (currentPageName == "Contact")
+        {
+            <li class="active"><a href="~/Home/Pages/Contact">Contact</a></li>
+        }
+        else
+        {
+            <li><a href="~/Home/Pages/Contact">Contact</a></li>
+        }
+    </ul>
+</div><!--/.nav-collapse -->

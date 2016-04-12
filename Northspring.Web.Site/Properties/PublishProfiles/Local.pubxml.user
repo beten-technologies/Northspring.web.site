@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>F:\_PublishedWebSites\NorthSpring</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>04/12/2016 20:53:42</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>04/12/2016 20:53:42</publishTime>
+    </File>
+    <File Include="bin/App_Web_eb5julkn.dll">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/App_Web_iwjvtvdb.dll">
+      <publishTime>04/10/2016 20:42:17</publishTime>
+    </File>
+    <File Include="bin/App_Web_qhim0tis.dll">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/App_Web_vsdskku0.dll">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/App_Web_xlpn4eur.dll">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/App_Web_y32c0byi.dll">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/details.cshtml.a8d08dba.compiled">
+      <publishTime>04/10/2016 20:42:17</publishTime>
+    </File>
+    <File Include="bin/error.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/index.cshtml.a8d08dba.compiled">
+      <publishTime>04/10/2016 20:42:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>03/23/2016 19:23:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/23/2016 19:23:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/23/2016 19:23:15</publishTime>
+    </File>
+    <File Include="bin/Northspring.Web.Site.dll">
+      <publishTime>04/12/2016 20:53:33</publishTime>
+    </File>
+    <File Include="bin/pages.cshtml.a8d08dba.compiled">
+      <publishTime>04/10/2016 20:42:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>03/23/2016 19:23:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>03/23/2016 19:23:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>03/23/2016 19:23:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>03/23/2016 19:23:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>03/23/2016 19:23:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/23/2016 19:23:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>03/23/2016 19:23:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>03/23/2016 19:23:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>03/23/2016 19:23:11</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>03/23/2016 19:23:12</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="bin/_about.cshtml.1f2321d7.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_chandran.cshtml.4d3cbdde.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_chooseus.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_contact.cshtml.1f2321d7.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_counters.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_features.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_footer.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_header.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_layout.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_layoutcustom.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_meetcommitte.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_meetdoctors.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_menu.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_pagedown.cshtml.639c3968.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="bin/_pritam.cshtml.4d3cbdde.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_researches.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_services.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_slider.cshtml.79007fa8.compiled">
+      <publishTime>04/10/2016 20:42:16</publishTime>
+    </File>
+    <File Include="bin/_viewstart.cshtml.65a2d1ee.compiled">
+      <publishTime>04/10/2016 20:42:18</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="Content/default-skin.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/photoswipe.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/slick.css">
+      <publishTime>03/24/2016 15:52:04</publishTime>
+    </File>
+    <File Include="Content/themes/blue-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/bridge-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/dark-red-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/default-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/green-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/lite-blue-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/orange-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/pink-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/purple-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="Content/themes/red-theme.css">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/23/2016 19:23:01</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>02/28/2016 13:07:14</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>02/28/2016 13:07:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>02/28/2016 13:07:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>02/28/2016 13:07:15</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>02/28/2016 13:07:15</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>02/28/2016 13:07:15</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="images/12.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/14.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/15.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/6.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/7.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/9.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/choose-us-img1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/choose-us-img2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/choose-us-img3.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/counter-bg2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/doctor-1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/doctor-2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/doctor-3.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/doctor-4.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/doctor-5.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/dr-chandran.jpg">
+      <publishTime>04/09/2016 17:55:56</publishTime>
+    </File>
+    <File Include="images/dr-pritam.jpg">
+      <publishTime>04/09/2016 17:56:51</publishTime>
+    </File>
+    <File Include="images/favicon.ico">
+      <publishTime>04/09/2016 19:38:33</publishTime>
+    </File>
+    <File Include="images/gallery/default-skin.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/default-skin.svg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-large-1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-large-2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-large-3.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-large-4.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-large-5.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-small-1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-small-2.jpg">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-small-3.jpg">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-small-4.jpg">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="images/gallery/gallery-small-5.jpg">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="images/gallery/preloader.gif">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/next_icon.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/next_icon1.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/ns-logo.png">
+      <publishTime>04/09/2016 19:46:01</publishTime>
+    </File>
+    <File Include="images/patients-1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/patients-2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/patients-3.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/prev_icon.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/slider/01.jpg">
+      <publishTime>04/09/2016 16:20:02</publishTime>
+    </File>
+    <File Include="images/slider/02.jpg">
+      <publishTime>04/09/2016 16:20:02</publishTime>
+    </File>
+    <File Include="images/slider/03.jpg">
+      <publishTime>04/09/2016 16:20:02</publishTime>
+    </File>
+    <File Include="images/slider/04.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/05.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/06.png">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/07.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/08.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/09.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/10.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/11.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/12.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/13.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/14.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/15.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/16.jpg">
+      <publishTime>04/09/2016 16:20:04</publishTime>
+    </File>
+    <File Include="images/slider/17.jpg">
+      <publishTime>04/09/2016 16:20:06</publishTime>
+    </File>
+    <File Include="images/slider/18.png">
+      <publishTime>04/09/2016 16:20:06</publishTime>
+    </File>
+    <File Include="images/slider/19.jpg">
+      <publishTime>04/09/2016 16:20:06</publishTime>
+    </File>
+    <File Include="images/slider/20.jpg">
+      <publishTime>04/09/2016 16:20:06</publishTime>
+    </File>
+    <File Include="images/small-blog-img1.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/small-blog-img2.jpg">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/status.gif">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/team-next-icon.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="images/team-prev-icon.png">
+      <publishTime>02/28/2016 13:07:18</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/23/2016 19:23:18</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>04/12/2016 20:53:35</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/23/2016 19:23:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/custom.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/hovers.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>03/23/2016 19:23:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>03/23/2016 19:23:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>03/23/2016 19:23:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery.counterup.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/23/2016 19:23:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/23/2016 19:23:14</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/23/2016 19:23:12</publishTime>
+    </File>
+    <File Include="Scripts/modernizr.custom.79639.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/photoswipe-gallery.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/photoswipe-ui-default.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/photoswipe.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>03/23/2016 19:23:13</publishTime>
+    </File>
+    <File Include="Scripts/slick.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/snap.svg-min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/waypoints.min.js">
+      <publishTime>02/28/2016 13:07:19</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>04/10/2016 21:07:25</publishTime>
+    </File>
+    <File Include="style.css">
+      <publishTime>04/12/2016 20:13:42</publishTime>
+    </File>
+    <File Include="Views/Home/Details.cshtml">
+      <publishTime>04/12/2016 20:09:01</publishTime>
+    </File>
+    <File Include="Views/Home/Details/_Chandran-Research.cshtml">
+      <publishTime>04/11/2016 21:45:06</publishTime>
+    </File>
+    <File Include="Views/Home/Details/_Chandran.cshtml">
+      <publishTime>04/09/2016 18:44:05</publishTime>
+    </File>
+    <File Include="Views/Home/Details/_Pritam-Research.cshtml">
+      <publishTime>04/11/2016 21:43:05</publishTime>
+    </File>
+    <File Include="Views/Home/Details/_Pritam.cshtml">
+      <publishTime>04/09/2016 18:44:58</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/11/2016 20:29:38</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_chooseus.cshtml">
+      <publishTime>03/27/2016 13:13:08</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_Counters.cshtml">
+      <publishTime>03/27/2016 13:16:07</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_features.cshtml">
+      <publishTime>03/27/2016 13:10:20</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_meetcommitte.cshtml">
+      <publishTime>04/11/2016 20:26:51</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_meetdirectors.cshtml">
+      <publishTime>04/11/2016 20:28:51</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_meetdoctors.cshtml">
+      <publishTime>04/11/2016 20:27:25</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_researches.cshtml">
+      <publishTime>04/11/2016 21:52:15</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_services.cshtml">
+      <publishTime>03/27/2016 17:15:34</publishTime>
+    </File>
+    <File Include="Views/Home/Index/_slider.cshtml">
+      <publishTime>04/11/2016 20:59:39</publishTime>
+    </File>
+    <File Include="Views/Home/Pages.cshtml">
+      <publishTime>04/09/2016 18:17:37</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_about.cshtml">
+      <publishTime>04/09/2016 19:02:01</publishTime>
+    </File>
+    <File Include="Views/Home/Pages/_contact.cshtml">
+      <publishTime>04/09/2016 16:59:11</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/23/2016 19:23:01</publishTime>
+    </File>
+    <File Include="Views/Shared/_footer.cshtml">
+      <publishTime>03/27/2016 17:55:38</publishTime>
+    </File>
+    <File Include="Views/Shared/_header.cshtml">
+      <publishTime>04/11/2016 20:48:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>03/24/2016 15:43:17</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutCustom.cshtml">
+      <publishTime>03/27/2016 15:34:52</publishTime>
+    </File>
+    <File Include="Views/Shared/_menu.cshtml">
+      <publishTime>04/12/2016 20:30:54</publishTime>
+    </File>
+    <File Include="Views/Shared/_pagedown.cshtml">
+      <publishTime>04/09/2016 21:06:52</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/23/2016 19:23:01</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/27/2016 12:53:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/09/2016 15:42:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
