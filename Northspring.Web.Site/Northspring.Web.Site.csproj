@@ -278,6 +278,7 @@
     <Content Include="Views\Home\Index\_meetdirectors.cshtml" />
     <Content Include="Views\Home\Details\_Pritam-Research.cshtml" />
     <Content Include="Views\Home\Details\_Chandran-Research.cshtml" />
+    <Content Include="Views\Home\Pages\_services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
